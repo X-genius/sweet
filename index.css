@@ -13,6 +13,16 @@ head,body
     background-color: rgba(178, 33, 55,0.8);
 }
 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none!important;
+    box-shadow: none;
+    border: none;
+}
+
+/*In this style Im hiding hamburger border*/
+
 ul.list-color li a
 {
     color: #c9ac6a!important;
